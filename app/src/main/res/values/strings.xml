@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SOSphone</string>
+    <!--claves para guardar-->
+    <string name="name_shared_fich">Nombre del fichero de datos</string>
+    <string name="name_shared_phone">Telefono Guardado</string>
+    <string name="name_shered_name">nombre de la variable del nombre del usuario guardado</string>
+    <string name="string_phone">Variable del telefono</string>
+    <string name="string_name">Variable del nombre</string>
+    <string name="msg_empty_ubicacion">No se ha podido acceder a la ubnicacion</string>
+    <string name="msg_empty_namephoner">Telefono y nombre vacio</string>
+    <string name="msg_empty_name">Nombre Vacio</string>
+    <string name="msg_empty_phone">Telefono vacio</string>
+    <string name="msg_not_valid_number">Telefono no valido</string>
+    <string name="msg_not_valid_permission_SMS">Permisos de SmS no concedidos</string>
+    <string name="msg_SMS_enviado">La ubicacion ha sido enviada correctamente</string>
+    <string name="msg_SMS_no_enviado">No se ha podido enviar la ubicacion"</string>
+    <string name="msg_not_valid_aplication_Alarm">No hay aplicacion de alarma</string>
+    <string name="msg_Alarm_puesta_exito">La alarma se ha puesto correctamente</string>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainMainActvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:background="@color/grisclaro"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutarriba"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="316dp"
+                android:layout_height="79dp"
+                android:background="@color/azulpolicia"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="nombreUser"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutabajo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lugarbotonSOS"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="cambiar configuración"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnSOS"
+                    android:layout_width="268dp"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/azulpolicia"
+                    android:padding="12dp"
+                    android:text="SOS"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lugarbotonURL"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnURL"
+                    android:layout_width="268dp"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/azulpolicia"
+                    android:text="Telefonos de ayuda"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lugarbotontemporizador"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnAlarma"
+                    android:layout_width="268dp"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/azulpolicia"
+                    android:text="Alarma"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lugarbotonpropio"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnUbicacion"
+                    android:layout_width="268dp"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/azulpolicia"
+                    android:text="Mandar ubicación"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom|right"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnConfig"
+                    android:layout_width="71dp"
+                    android:layout_height="69dp"
+                    android:background="@drawable/engranaje"
+                    android:contentDescription="boton para cambiar opciones de la app" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
