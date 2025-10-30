@@ -17,16 +17,16 @@ El fondo de la app lo puse, debido a que cuando vi la actividad, automaticamente
 --- 
 
 <H2> Instalar y ejecutar </H2>
-<H3> 1. Clona el repositorio: </H3>
+1. Clona el repositorio:
 
 ``` bash
   git clone https://github.com/ruser215/PracticaExamenTema1PMDM.git
 ```
 
-<H3> 2. Abre el proyecto con el android studio.</H3>
-<H3> 3. Conecta el movil al ordenador.</H3>
-<H3> 4. Sincroniza las dependencias.</H3>
-<H3> 5. Ejecuta la app</H3>
+2. Abre el proyecto con el android studio.
+3. Conecta el movil al ordenador.
+4. Sincroniza las dependencias.
+5. Ejecuta la app.
 
 ---
 
