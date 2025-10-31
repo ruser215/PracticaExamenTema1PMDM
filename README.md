@@ -16,7 +16,7 @@ El fondo de la app lo puse, debido a que cuando vi la actividad, automaticamente
 
 --- 
 
-<H2> Instalar y ejecutar </H2>
+<H2 align="center"> Instalar y ejecutar </H2>
 1. Clona el repositorio:
 
 ``` bash
