@@ -1,9 +1,9 @@
 <H1 align="center"> SOSphone </H1>
 
-<p> Consiste en una aplicacion para hacer llamadas, buscar una url, poner una alarma para dos minutos despues, y en mi caso, manda un SMS con tu ubicacion
-al numero selecionado en la configuracion de esta.
+<p> Consiste en una aplicacion para hacer llamadas, buscar una url, poner una alarma para dos minutos despues, y en mi caso, manda un SMS con tu ubicación
+al numero selecionado en la configuración de esta.
 
-El fondo de la app lo puse, debido a que cuando vi la actividad, automaticamente me vino a la cabeza una app de ayuda en caos deemergencia.</p>
+El fondo de la app lo puse, debido a que cuando vi la actividad, automaticamente me vino a la cabeza una app de ayuda en casos de emergencia.</p>
 
 ---
 
@@ -12,7 +12,7 @@ El fondo de la app lo puse, debido a que cuando vi la actividad, automaticamente
 - Llamada de SOS al telefono configurado.
 - Busqueda en internet los telefonos de ayuda en Andalucia.
 - Pone una alarma para 2 minutos despues.
-- Manda por SMS con tu ubicación a la persona confugurada.
+- Manda por SMS con tu ubicación a la persona configurada.
 
 --- 
 
